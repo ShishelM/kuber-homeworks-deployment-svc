@@ -1,0 +1,23 @@
+# Системные файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+crash.log
+
+# Файлы конфигурации Kubernetes
+kubeconfig
+.kube/
+*.kubeconfig
+
+# Секреты и sensitive-данные
+*.secret
+*.pem
+*.key
+.env
+
+# Настройки сред разработки и редакторов кода
+.vscode/
+.idea/
+*.swp
