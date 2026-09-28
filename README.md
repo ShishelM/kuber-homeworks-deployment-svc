@@ -24,17 +24,17 @@
 ### Проверка работоспособности:
 
 Вывод подов до:
-![alt text](image.png)
+![alt text](img/image.png)
 
 После масштабирования:
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 
 Проверка доступности реплик через `curl` из независимого пода `standalone-multitool`:
 ```bash
 kubectl exec -it standalone-multitool -- curl web-service
 ```
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 ---
 
@@ -55,7 +55,7 @@ kubectl exec -it standalone-multitool -- curl web-service
 
 ### Проверка работоспособности:
 Состояние пода **ДО** запуска сервиса (ожидание в режиме Init):
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 Состояние пода **ПОСЛЕ** создания и запуска сервиса:
-![alt text](image-4.png)
+![alt text](img/image-4.png)
